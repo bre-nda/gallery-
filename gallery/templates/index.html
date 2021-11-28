@@ -1,4 +1,18 @@
 {%extends 'base.html'%} {% block content %} {{block.super}}
 <div class="container">
     <h1 class="text-center">Welcome to Brenda's Gallery</h1>
+    <br>
+    <!-- Adding a search form  -->
+    <div class="col-sm-4 col-md-4 navbar-right">
+
+        <form class="navbar-form" role="search" action="{% url 'search_results' %}">
+
+            <div class="md-form my-0">
+                <input class="form-control" name="category" type="text" placeholder="Search By name"><br>
+                <button type="submit" class="btn btn-md btn-primary">Search</button>
+            </div>
+
+        </form>
+    </div>
+    <!-- search form end -->
 </div>{% endblock %}
