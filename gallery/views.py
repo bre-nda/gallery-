@@ -1,12 +1,16 @@
 from django.shortcuts import render
-from django.http  import HttpResponse
+from django.http  import HttpResponse, Http404
 from .models import Category, Location, Image
+
 
 # Create your views here.
 def welcome(request):
-    category = Category.objects.all()
-    location = Location.objects.all()
-    images = Image.objects.all()
+    try:
+        category = Category.objects.all()
+        location = Location.objects.all()
+        images = Image.objects.all()
+    except:
+        raise Http404()
 
     return render(request, 'index.html', {"location": location,"category":category,"images":images})
 
