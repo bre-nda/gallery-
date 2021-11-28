@@ -1,3 +1,13 @@
-h1 {
-    color: crimson;
-}
+    .head {
+        color: crimson;
+        font-size: xx-large;
+        font-weight: 600;
+    }
+    
+    body {
+        background-color: gainsboro;
+    }
+    
+    .card {
+        background-color: rgb(181, 198, 247);
+    }
