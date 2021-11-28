@@ -16,14 +16,14 @@ class Category(models.Model):
         return self.name
 
 class Image(models.Model):
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', default='')
     name = models.CharField(max_length = 30)
     description = models.TextField()
-    location = models.ForeignKey(Location, on_delete = models.CASCADE)
+    location = models.ForeignKey(Location, on_delete=models.CASCADE)
     category = models.ManyToManyField(Category)
 
     def __str__(self):
-        return self.first_name
+        return self.name
     
     @classmethod
     def search_by_name(cls,search_term):
