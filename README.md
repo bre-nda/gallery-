@@ -32,4 +32,7 @@ For support and contact details;
 * Call:0743495599
 * Email at brendaandeso4@gmail.com
 ## License
-Licence under [MIT](https://choosealicense.com/licenses/mit/) LICENCE Copyright (c) {2021} Brenda Andeso
+(https://github.com/bre-nda/gallery-/blob/master/licence) 
+
+## Copyright
+Copyright (c) {2021} Brenda Andeso
