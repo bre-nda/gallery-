@@ -7,7 +7,7 @@ Brenda Andeso.
 This is a Personal Gallery project which shows several pictures in my collection.Once you click any picture, you will be able to find all its description there. You can also decide to search for different categories of photos.
 
 ## Screenshot
-<img src="../gallery/Media/Screenshot 2.png">
+<img src="gallery/Media/Screenshot 2.png">
 <img src="/home/brenda/Documents/gallery/Media/Screenshot .png">
 
 ## Setup/Installation Requirements
