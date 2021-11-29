@@ -5,8 +5,6 @@ Brenda Andeso.
 
 ## Description
 This is a Personal Gallery project which shows several pictures in my collection.Once you click any picture, you will be able to find all its description there. You can also decide to search for different categories of photos.
-## Screenshot
-/home/brenda/Documents/gallery/Media/Screenshot 2.png
 
 ## Setup/Installation Requirements
 Install python3.6
